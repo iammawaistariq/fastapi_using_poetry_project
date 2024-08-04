@@ -15,5 +15,7 @@
     ```
 7. Create `main.py` file in `fastapi_using_poetry_project`
 8. Run `poetry run uvicorn fastapi_using_poetry_project.main:app --relaod` command in CMD to run uvicorn server
-9. Write `test_main.py` file to test your code.
-10. Run `poetry run pytest -v` on your VS Code terminal or new CMD terminal
+9. Go to `http://127.0.0.1:8000/` link to check output.
+10. Go to `http://127.0.0.1:8000/docs` to check functions using GUI.
+11. Write `test_main.py` file to test your code.
+12. Run `poetry run pytest -v` on your VS Code terminal or new CMD terminal
