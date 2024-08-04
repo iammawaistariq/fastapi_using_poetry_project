@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return "Hello World"
+    return {"Hello":"World"}
 
 @app.get("/PIAIC")
 def piaci():
